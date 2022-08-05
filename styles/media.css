@@ -1,0 +1,115 @@
+@media(max-width: 1200px) {
+    .header__content-bg {
+        width: 100%;
+    }
+
+    .main__offer-content {
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: 30px;
+    }
+
+    .main__services-content {
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: 30px;
+    }
+
+    .main__course-items {
+        justify-content: center;
+    }
+
+    .main__title, .main__cards-subtitle {
+        text-align: center;
+    }
+    
+    .main__cards {
+        justify-content: space-around;
+    }
+}
+
+@media(max-width: 992px) {
+    .header__content-info {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .header__content-title {
+        text-align: center;
+    }
+    
+    .main__course, .header__nav {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .main__cards {
+        flex-wrap: wrap;
+    }
+    
+    .header__content-image {
+        width: 100%;
+    }
+    
+    .header__nav-menu {
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: 15px;
+    }
+}
+
+@media(max-width: 576px) {
+    .header__content-links {
+        max-width: 500px;
+    }
+    .main__cards-img, .main__course-left img {
+        width: 100%;
+    }
+    .main__course-item{
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: 15px;
+    }
+    .main__services-links{
+        flex-wrap: wrap;
+        row-gap: 30px;
+    }
+}
+@media(max-width:480px){
+    .main__services-items{
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: 15px;
+        
+    }
+    .header__nav-list{
+        margin-right: 0;
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: 15px;
+    }
+    .main__services-left img{
+        width: 100%;
+    }
+    .header__content-links{
+        flex-wrap: wrap;
+        row-gap: 20px;
+        bottom: -100px;
+    }
+    .header__content{
+        height: 450px;
+    }
+    .main__course-price{
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .main__course-item{
+        padding: 15px 0;
+    }
+    .main__course-line{
+        width: 20px;
+        margin: 0 10px;
+        
+    }
+    
+}

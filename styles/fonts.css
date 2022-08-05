@@ -1,0 +1,27 @@
+/* @font-face - css правило которое определяет настройки шрифта и подключает его */
+
+
+@font-face {
+    font-family: 'mont-black';
+    src: url('../fonts/Montserrat-Black.ttf');
+}
+
+@font-face {
+    font-family: 'mont-bold';
+    src: url('../fonts/Montserrat-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'mont-light';
+    src: url('../fonts/Montserrat-Light.ttf');
+}
+
+@font-face {
+    font-family: 'mont-medium';
+    src: url('../fonts/Montserrat-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'mont-regular';
+    src: url('../fonts/Montserrat-Regular.ttf');
+}
